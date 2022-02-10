@@ -2,13 +2,21 @@
 // update balance 
 // .50 transaction fee 
 
-var atm = function(amount) {
-  balance = 1000
-  if (amount > 0) {
-    return amount + balance + 0.50
-  } else {
-    return "Please add more money"
-  }
-};
+// 
+number = 24
 
-console.log(atm(100))
+var addTwoNumbers = function (number) {
+  var numToStr = number.toString().split('');
+  var realDigits = numToStr.map(Number)
+  console.log(realDigits[0] + realDigits[1])
+}
+
+console.log(addTwoNumbers(number))
+
+
+
+
+
+
+
+
